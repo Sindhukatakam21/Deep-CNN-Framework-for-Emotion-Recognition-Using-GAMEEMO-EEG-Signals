@@ -26,7 +26,7 @@
 - [Tech Stack](#-tech-stack)
 - [Future Work](#-future-work)
 - [References](#-references)
-- [License](#-license)
+
 
 ---
 
@@ -87,33 +87,17 @@ This project uses the **GAMEEMO** dataset — a publicly available EEG dataset d
 EEG-Emotion-Recognition/
 │
 ├── README.md                        ← You are here
-├── requirements.txt                 ← Python dependencies
-├── LICENSE
+├── requirements.txt                 ← Python dependencie               
 │
-├── data/
-│   ├── raw/                         ← Place GAMEEMO dataset here
-│   └── processed/                   ← Preprocessed segments (auto-generated)
-│
-├── src/
-│   ├── preprocess.py                ← Filtering, normalization, segmentation
-│   ├── model.py                     ← Deep CNN architecture
-│   ├── train.py                     ← Training loop
-│   ├── evaluate.py                  ← Metrics and evaluation
-│   └── predict.py                   ← Single-sample inference
-│
-├── notebooks/
-│   └── EEG_Emotion_CNN.ipynb        ← Full end-to-end walkthrough
-│
-├── models/
-│   └── best_model.pth               ← Saved best model weights
+├──  EEG_Emotion_CNN.ipynb        ← Full end-to-end walkthrough
+
 │
 ├── results/
 │   ├── confusion_matrix.png
 │   ├── accuracy_loss_curve.png
 │   └── model_comparison.png
 │
-└── docs/
-    └── Project_Report.pdf           ← Full project report
+└──  Project_Report.pdf           ← Full project report
 ```
 
 ---
@@ -319,20 +303,15 @@ Confidence        : 98.3%
 7. A. Ibrahim et al. (2026). Next-Generation Brain-Computer Interfaces for Emotion-Aware Systems.
 8. GAMEEMO Dataset (2020). A Game-Based EEG Dataset for Emotion Recognition Research.
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ---
 
 ## 🙋 Author
 
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
-- Email: your.email@example.com
+**KATAKAM SINDHU**
+- GitHub: [SindhuKatakam21](https://github.com/your-username)
+- LinkedIn: [Sindhu Katakam](https://linkedin.com/in/your-linkedin)
+- Email: sindhukatakam21@gmail.com
 
 ---
 
